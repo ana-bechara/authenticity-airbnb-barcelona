@@ -1,6 +1,6 @@
 # Data
 
-This project uses **public data only**. The two Inside Airbnb files (`listings.csv`, `reviews.csv`) are **not committed** (size); download them into this `data/` folder from the source below. All other datasets and the precomputed files are already in the repo. Files are read directly from here.
+This project uses **public data only**. The two Inside Airbnb files (`listings.csv`, `reviews.csv`) are **not committed** (size); download them (archived December 2025, Barcelona city) into this `data/` folder from the source below. All other datasets and the precomputed files are already in the repo. Files are read directly from here.
 
 | Dataset | Expected file | In repo? | Source |
 | :---- | :---- | :---- | :---- |
