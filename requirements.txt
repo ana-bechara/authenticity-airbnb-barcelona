@@ -1,0 +1,15 @@
+﻿# Core (used by the notebook pipeline)
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+langdetect
+sentence-transformers     
+
+
+# Demonstrator (src/app.py)
+streamlit
+folium
+streamlit-folium
+plotly
