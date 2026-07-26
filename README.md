@@ -17,10 +17,10 @@ A three-stage pipeline:
 ```
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-├── TFM.ipynb                 # full pipeline: data prep, scoring, evaluation
+├── notebooks/
+    └──TFM.ipynb              # full pipeline: data prep, scoring, evaluation
 ├── src/
-│   └── app.py                # Streamlit demonstrator (add your app file here)
+│   └── app.py                # Streamlit demonstrator
 └── data/
     ├── README.md             # dataset sources + expected paths
     ├── listings_scored.csv   # precomputed per-listing scores (for the app)
@@ -31,8 +31,8 @@ A three-stage pipeline:
 
 1. Python 3.12. Install dependencies: `pip install -r requirements.txt`.  
 2. Download the Inside Airbnb datasets (`listings.csv`, `reviews.csv`) into `data/` (see `data/README.md`). They are not committed here due to size.  
-3. Run `TFM.ipynb` **from the repo root** to reproduce the pipeline and export the scored files (`listings_scored.csv`, `top100_reviews.json`). The notebook reads data from a `data/` folder relative to the repo root (`DATA_DIR = Path("data")`), so launch Jupyter from the repo root.  
-4. Launch the demo: `streamlit run src/app.py`.
+3. Run `TFM.ipynb` **from the repo root** to reproduce the pipeline and export the scored files (`listings_scored.csv`, `top100_reviews.json`). The notebook reads data from a `data/` folder relative to the repo root (`DATA_DIR = Path("data")`)  
+4. Access the demo: https://re-ranking-airbnb-barcelona.streamlit.app
 
 The precomputed score files are included so the demonstrator runs without re-executing the full pipeline.
 
