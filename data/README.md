@@ -31,5 +31,3 @@ data/
 ├── listings_scored.csv                               (in repo)
 └── top100_reviews.json                               (in repo)
 ```
-
-> Note: Inside Airbnb and the open-data portals distribute their data under their own terms.  
